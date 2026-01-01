@@ -1,16 +1,61 @@
-# React + Vite
+# NewsApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NewsApp is a React-based web application that fetches and displays the latest news articles from around the world. Users can view news by category and stay updated with top headlines.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display latest news articles
+- Filter news by categories (e.g., technology, sports, business)
+- Responsive design for desktop and mobile
+- Clean and user-friendly interface
+- Uses NewsAPI to fetch real-time news data
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js, HTML, CSS, JavaScript
+- **API:** [NewsAPI](https://newsapi.org/)
+- **State Management:** React Hooks (`useState`, `useEffect`)
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/thiro2003/NewsApp.git
+```
+2. Navigate into the project folder:
+   cd NewsApp
+3. Install dependencies:
+   npm install
+4. Add your NewsAPI key:
+   Create a .env file in the root directory.
+   Add your API key:
+      npm start
+Usage
+
+Browse the latest news articles on the homepage.
+
+Select a category to filter news.
+
+Click on a news article to read the full story on the original site.
+
+Contributing
+
+Contributions are welcome! Please follow these steps:
+
+Fork the repository
+
+Create a new branch (git checkout -b feature/YourFeature)
+
+Make your changes
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to the branch (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+License
+
+This project is open-source and available under the MIT License.
+
